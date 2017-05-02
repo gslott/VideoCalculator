@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Video calculator</string>
+    <string name="action_about">Om</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="label_bitrate">Bitrate</string>
+    <string name="label_filesize">Filstorlek</string>
+    <string name="label_length">Längd</string>
+    <string name="label_notApplicable">N/A</string>
+    <string name="about_text">Detta är en app som kan beräkna filstorlek, bitrate eller längd på en mediafil. \nDet är ett hobbyprojekt.</string>
+    <string name="positive">OK</string>
+    <string name="Kbps">Kbps</string>
+    <string name="Mbps">Mbps</string>
+    <string name="minutes">Min</string>
+    <string name="hours">Tim</string>
+    <string name="MB">MB</string>
+    <string name="GB">GB</string>
+    <string name="TB">TB</string>
+    <string name="br_to_large">För stor bitrate</string>
+    <string name="length_to_large">För lång videofil</string>
+    <string name="fs_to_large">För stor filstorlek</string>
+
+</resources>

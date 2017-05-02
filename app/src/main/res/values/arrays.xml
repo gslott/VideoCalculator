@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="bitrate_units">
+        <item>Kbps</item>
+        <item>Mbps</item>
+    </string-array>
+    <string-array name="length_units">
+        <item>Mins</item>
+        <item>Hours</item>
+    </string-array>
+    <string-array name="filesize_units">
+        <item>MB</item>
+        <item>GB</item>
+        <item>TB</item>
+    </string-array>
+
+</resources>
