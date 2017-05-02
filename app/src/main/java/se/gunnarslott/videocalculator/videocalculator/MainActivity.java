@@ -241,16 +241,16 @@ public class MainActivity extends AppCompatActivity {
 
                     //Create intent and string for sending the calc to any text receiving app on the device
                     if (rbFileSize.isChecked()) {
-                        //bitrate * lenght = file size
-                        message = Double.toString(currentBitrate / bitrateIndex[currentBitrateIndex]) + " " + bitrateNames[currentBitrateIndex] + " * " + Double.toString(currentLength / lengthIndex[currentLengthIndex]) + " " + lengthNames[currentLengthIndex] + " = " + Double.toString(currentFileSize / fileSizeIndex[currentFileSizeIndex]) + " " + fileSizeNames[currentFileSizeIndex];
+                        //bitrate * length = file size
+                        message = etBitrate.getText() + " " + bitrateNames[currentBitrateIndex] + " * " + etLength.getText() + " " + lengthNames[currentLengthIndex] + " = " + etFileSize.getText() + " " + fileSizeNames[currentFileSizeIndex];
 
                     } else if (rbLength.isChecked()){
                         //file size / bitrate = length
-                        message = Double.toString(currentFileSize / fileSizeIndex[currentFileSizeIndex]) + " " + fileSizeNames[currentFileSizeIndex] + " / " + Double.toString(currentBitrate / bitrateIndex[currentBitrateIndex]) + " " + bitrateNames[currentBitrateIndex] + " = " + Double.toString(currentLength / lengthIndex[currentLengthIndex]) + " " + lengthNames[currentLengthIndex];
+                        message = etFileSize.getText() + " " + fileSizeNames[currentFileSizeIndex] + " / " + etBitrate.getText() + " " + bitrateNames[currentBitrateIndex] + " = " + etLength.getText() + " " + lengthNames[currentLengthIndex];
 
                     } else if (rbBitrate.isChecked()){
                         //file size / length = bitrate
-                        message =  Double.toString(currentFileSize / fileSizeIndex[currentFileSizeIndex]) + " " + fileSizeNames[currentFileSizeIndex] + " / " + Double.toString(currentLength / lengthIndex[currentLengthIndex]) + " " + lengthNames[currentLengthIndex] + " = " + Double.toString(currentBitrate / bitrateIndex[currentBitrateIndex]) + " " + bitrateNames[currentBitrateIndex];
+                        message =  etFileSize.getText() + " " + fileSizeNames[currentFileSizeIndex] + " / " + etLength.getText() + " " + lengthNames[currentLengthIndex] + " = " + etBitrate.getText() + " " + bitrateNames[currentBitrateIndex];
 
                     }
 
